@@ -41,4 +41,13 @@ public class Investment {
     public Money getValuePerUnit() {
         return valuePerUnit;
     }
+
+    @Override
+    public String toString() {
+        return "Investment{" +
+                "name='" + name + '\'' +
+                ", quantity=" + quantity +
+                ", valuePerUnit=" + valuePerUnit +
+                '}';
+    }
 }

@@ -24,7 +24,7 @@ public class Portfolio {
         }
         return investments.stream()
                 .map(Investment::totalValue)
-                .reduce(new Money(0, baseCurrency),Money::add);
+                .reduce(Money::add).get();
 
     }
 
