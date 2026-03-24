@@ -1,10 +1,7 @@
 package dip;
 
 
-import org.example.dip.BirthdayGreeter;
-import org.example.dip.Clock;
-import org.example.dip.Employee;
-import org.example.dip.EmployeeRepository;
+import org.example.dip.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -37,7 +34,7 @@ class BirthdayGreeterShould {
     void should_send_greeting_email_to_employee() {
         System.setOut(new PrintStream(consoleContent));
         given(clock.monthDay()).willReturn(TODAY);
-        Employee employee = anEmployee().build();
+        Employee employee = anEmployee().withEmail("Email").build();
         given(employeeRepository.findEmployeesBornOn(MonthDay.of(CURRENT_MONTH, CURRENT_DAY_OF_MONTH))).willReturn(Collections.singletonList(employee));
 
         birthdayGreeter.sendGreetings();

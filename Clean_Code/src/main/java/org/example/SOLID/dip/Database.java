@@ -1,6 +1,4 @@
-package org.example.dip;
-
-import javax.xml.crypto.Data;
+package org.example.SOLID.dip;
 
 public interface Database {
     void connect();

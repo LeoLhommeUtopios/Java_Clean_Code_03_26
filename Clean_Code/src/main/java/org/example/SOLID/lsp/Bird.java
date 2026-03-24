@@ -1,4 +1,4 @@
-package org.example.lsp;
+package org.example.SOLID.lsp;
 
 //public class Bird {
 //    void fly (){

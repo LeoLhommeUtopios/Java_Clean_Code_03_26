@@ -1,4 +1,4 @@
-package org.example.srp;
+package org.example.SOLID.srp;
 
 //public class Report {
 //    public String generateReport(){

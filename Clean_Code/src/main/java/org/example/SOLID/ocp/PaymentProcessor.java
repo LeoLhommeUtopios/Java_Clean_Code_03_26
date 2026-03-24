@@ -1,4 +1,4 @@
-package org.example.ocp;
+package org.example.SOLID.ocp;
 
 //public class PaymentProcessor {
 //    public void pay(String methode){
