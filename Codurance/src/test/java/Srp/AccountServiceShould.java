@@ -41,7 +41,7 @@ class AccountServiceShould {
 
     @BeforeEach
     public void setUp() {
-        accountService = new AccountService(transactionRepository, clock, console);
+        accountService = new AccountService(transactionRepository, clock, console,new PrintStatementService(console));
     }
 
     private void setupClock() {
