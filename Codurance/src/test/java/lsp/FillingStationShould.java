@@ -24,15 +24,6 @@ class FillingStationShould {
     }
 
 
-    @Test
-    void not_fail_refueling_an_electric_car() {
-        ElectricCar car = new ElectricCar();
-
-        Throwable throwable = catchThrowable(() -> fillingStation.refuel(car));
-
-        assertThat(throwable)
-                .isNull();
-    }
 
 
     @Test
@@ -46,13 +37,5 @@ class FillingStationShould {
     }
 
 
-    @Test
-    void not_fail_recharging_a_petrol_car() {
-        PetrolCar car = new PetrolCar();
 
-        Throwable throwable = catchThrowable(() -> fillingStation.charge(car));
-
-        assertThat(throwable)
-                .isNull();
-    }
 }
