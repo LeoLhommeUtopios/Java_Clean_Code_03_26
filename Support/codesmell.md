@@ -104,7 +104,15 @@ class Report { String tmpCsvPath; /* utile seulement si export CSV */ }
 **Refactor** : passer en variable locale, Extract Class, Introduce Special Case.
 
 ### 2.3 Refused Bequest (héritage « refusé »)
-/
+
+**Symptômes** : sous-classe n’utilise pas ce qu’elle hérite.
+**Exemple**
+
+```java
+class Square extends Rectangle { /* override contraints width/height... */ }
+```
+
+**Refactor** : remplacer héritage par composition/délégation, Collapse Hierarchy.
 
 ### 2.4 Alternative Classes with Different Interfaces
 

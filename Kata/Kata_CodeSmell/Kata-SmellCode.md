@@ -99,7 +99,7 @@ public class InvalidOrderException extends Exception {
 
 ---
 
-## Kata 3 : Calculateur de Prix
+## Kata 2 : Calculateur de Prix
 
 **Description :**
 
@@ -193,7 +193,7 @@ public class ClothingProduct extends Product {
 
 ---
 
-## Kata 4 : Gestion des Employés
+## Kata 3 : Gestion des Employés
 
 **Description :**
 
@@ -302,7 +302,7 @@ payroll.calculateSalary(new Manager(150, 10));
 ```
 ---
 
-## Kata 5 : Analyse des Données
+## Kata 4 : Analyse des Données
 
 **Description :**
 
@@ -334,7 +334,7 @@ public class DataAnalyzer {
 
 ---
 
-## Kata 6 : Gestion des Transactions Bancaires
+## Kata 5 : Gestion des Transactions Bancaires
 
 **Description :**
 
@@ -365,7 +365,7 @@ public class TransactionManager {
 
 ---
 
-## Kata 7 : Système de Réservation
+## Kata 6 : Système de Réservation
 
 **Description:**
 
@@ -396,7 +396,7 @@ public class BookingSystem {
 
 ---
 
-## Kata 8 : Gestion des Utilisateurs
+## Kata 7 : Gestion des Utilisateurs
 
 **Description :**
 
